@@ -1,0 +1,90 @@
+.maindiv {
+    width: 350px;
+    margin: auto;
+    background: #e2e2e2;
+    height: 361px;
+    font-family: arial;
+    font-size: 11px;
+    color: #333130;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 113px;
+    position: relative;
+    box-shadow: -1px 2px 7px 0px black;
+}
+
+.second {transform: translate(60px, 9px);width: 294px;}
+
+
+.second input {
+    outline: none;
+    padding: 7px;
+    width: 73%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 6px black;
+}
+
+
+h1.maindivTitle {
+    transform: translate(-10px, 0px);
+    font-size: 28px;
+    color: #ff5200;
+    text-shadow: -1px 3px 2px black;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+
+input#submitbtn {
+    margin-top: 14px;
+    width: 80%;
+    background: #2EA44F;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+h3.footertitle {
+    color: #ff5200;
+    transform: translate(14px, 10px);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px black;
+    font-family: arial;
+    font-size: 16px;
+}
+input#submitbtn:hover {
+    background: black;
+    transition: all 0.5s;
+    color:white;
+}
+
+
+.showkoro {
+    background: #ffffff;
+    color: black;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 10;
+    transform: translate(400px, -200px);
+    box-shadow: 0px 2px 6px 0px black;
+}
+
+a#hidepopupbtn {
+    color: white;
+    background: #ff5200;
+    padding: 4px;
+    font-family: arial;
+    text-decoration: none;
+    margin-left: 417px;
+}
+a#hidepopupbtn:hover {
+    background: #252525;
+}
